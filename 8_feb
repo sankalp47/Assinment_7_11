@@ -1,0 +1,16 @@
+Q1 // "-- Write a method which returns a string by removing special charaters( &,$,:,+,@)
+   spaces from the string  
+   Input: ""Geekster-The%school:where+you@code:your-success$stories""
+   Output : ""eekster The school where you code your success stories //
+   
+   public class Main
+{
+	public static void main(String[] args) {
+String str = "Geekster-The%school:where+you@code:your-success$stories";  
+str = str.replaceAll("[G^%^:+^@^$-]", " ");  
+ 
+System.out.println(str);  
+}
+}
+
+Q2 // 
