@@ -1,0 +1,36 @@
+
+import java.util.Scanner;
+
+public class String {
+    private static String Reverse_String(String str,char ch, String nstr){
+
+        for(int i=0;i<str.length();i++){
+            ch = str.charAt(i);
+            nstr = ch + nstr;
+        }
+        return nstr;
+    }
+    public static  void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        String str = sc.nextLine();
+        char ch = 0;
+        String nstr = "";
+        System.out.println(Reverse_String(str,ch,nstr));
+
+    }
+}
+public class String {
+    private static boolean check_if_both_strings_are_equal(String str, String str1){
+        if(str.equals(str1)){
+            return true;
+        }
+        return false;
+    }
+    public static  void main(String[] args) {
+        String str = "Sankalp";
+        String str1 = "Sankalp";
+        System.out.println(check_if_both_strings_are_equal(str,str1));
+    }
+}
+
+Q3 //
